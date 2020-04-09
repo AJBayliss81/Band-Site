@@ -1,11 +1,70 @@
-t1 {
-    background-color: green;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather&display=swap:200,300,400,500,600,700');
 
-t2 {
+/*----------------------------------- Colours ---------------*/
+
+.ui-nav-container {
+    background-color: #333533;
+}
+.t1 {
     background-color: red;
 }
 
-t3 {
+.t2 {
+    background-color: green;
+}
+
+.t3 {
     background-color: yellow;
+}
+
+/*----------------------------------- Text/Margins/Padding ---------------*/
+
+.paragraph {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', sans-serif;
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.row {
+    margin: 0;
+}
+
+/*----------------------------------- Nav Menus ---------------*/
+
+.nav-item a {
+    color: #CFDBD5;
+}
+
+/*----------------------------------- Media Query ---------------*/
+
+@media(max-width: 768px) {
+    .row .col-sm-4 {
+    position: relative;
+    float: left;
+    width: 33%;
+   }
+  
+  .row .col-sm-4:nth-of-type(1) {
+    left: 33%;
+  }
+ 
+  .row .col-sm-4:nth-of-type(2) {
+    left: 33%;
+  }
+ 
+  .row .col-sm-4:nth-of-type(3) {
+    left: -33%;
+  }
 }
