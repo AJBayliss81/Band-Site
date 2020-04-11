@@ -19,43 +19,43 @@
 <body>
 
 	<header>
-		<div class="row bg-color-nav-container">
-			<div class="col-sm-4 col-md-6 t1">
-				<h2>Logo</h2>
-			</div>
-			<div class="col-sm-4 col-md-6 site-nav t2">
-				<div class="site-nav-list">
-					<ul id="nav" class="list-inline">
-						<li class="list-inline-item nav-item">
-							<a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>
-								<span class="uppercase">Home</span></a>
-						</li>
-						<li class="list-inline-item nav-item">
-							<a href="About.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								<span class="uppercase">About</span></a>
-						</li>
-						<li class="list-inline-item nav-item">
-							<a href="media.html"><i class="far fa-comment" aria-hidden="true"></i>
-								<span class="uppercase">Media</span></a>
-						</li>
-						<li class="list-inline-item nav-item">
-							<a href="tour.html" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>
-								<span class="uppercase">Tour</span></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-4 col-md-3 t3">
-				<h2>Sidebar</h2>
-			</div>
-		</div>
+		<nav class="navbar navbar-expand-sm navbar-light bg-colour-ui-navbar">
+			<a class="navbar-brand band-logo" href="#">Logo</a>
 
+			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="media.html">Media</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Tour.html">Tour</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 	</header>
 
-	<div class="band-image">
-		<a href="about.html">Band Image Here</a>
-	</div>
+	<div class="row">
+		<div class="col-md-3 bg-colour-ui-sidebar sidebar">
+			<h2>Sidebar</h2>
+		</div>
 
+		<main class="col-sm-12 col-md-9 bg-colour-ui-main">
+			<div>
+				<a href="about.html">Band Image Here</a>
+			</div>
+		</main>
+	</div>
 
 	<footer>
 		<div class="#">

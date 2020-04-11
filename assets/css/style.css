@@ -1,25 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather&display=swap:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather&display=swap:200,300,400,500,600,700,800,900');
 
 /*----------------------------------- Colours ---------------*/
 
-.bg-color-nav-container {
+.bg-colour-ui-navbar {
     background-color: #333533;
 }
-.t1 {
-    background-color: red;
+
+.bg-colour-ui-sidebar {
+    background-color: #333533;
 }
 
-.t2 {
-    background-color: green;
-}
-
-.t3 {
-    background-color: yellow;
+.bg-colour-ui-main {
+    background-color: #242423;
 }
 
 /*----------------------------------- Text/Margins/Padding ---------------*/
 
-.paragraph {
+body {
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -30,67 +27,40 @@ h4,
 h5,
 h6 {
     font-family: 'Merriweather', sans-serif;
-    margin: 0;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
 
-.row {
-    margin: 0;
-}
 
-/*----------------------------------- Nav Menus ---------------*/
-
-#nav {
-    margin: 0;
-}
-
-.site-nav {
-    position: relative;
-    height: 80px;
-}
-
-.site-nav-list {
-    position: absolute;
-    right: 20px;
-    bottom: 5px;
-    text-align: center;
-}
-
-.nav-item {
-    padding-left: 20px;
-    padding-top: 20px;
-   /* font-size: 14px;*/
-}
+/*----------------------------------- Top Navigation ---------------*/
 
 .nav-item a {
+    font-family: 'Merriweather', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {    
     color: #CFDBD5;
 }
 
-.nav-item a i {
-    display: block;
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    font-weight: 600;
+    color: #F5CB5C;
+}
+
+.active {
+    font-weight: 600;
+}
+
+/*----------------------------------- Sidebar ---------------*/
+
+.sidebar {
+    height: 50%;
 }
 
 /*----------------------------------- Media Query ---------------*/
 
-@media(max-width: 768px) {
-    .row .col-sm-4 {
-    position: relative;
-    float: left;
-    width: 33%;
-   }
-  
-  .row .col-sm-4:nth-of-type(1) {
-    left: 33%;
-  }
- 
-  .row .col-sm-4:nth-of-type(2) {
-    left: 33%;
-  }
- 
-  .row .col-sm-4:nth-of-type(3) {
-    right: 67%;
-  }
-}
+/* @media(max-width: 768px) {
+
+} */
