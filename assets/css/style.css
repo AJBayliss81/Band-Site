@@ -76,6 +76,23 @@ h6 {
     height: 80vh;
 }
 
+.sidebar-list {
+    background-color: #CFDBD5;    
+    height: 300px;
+    font-family: 'Merriweather', sans-serif;
+    margin-top: 20px;    
+}
+
+.sidebar-list li {    
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.sidebar-list a {
+    text-decoration: none;
+    color: #333533;
+}
+
 /*----------------------------------- Main ---------------*/
 
 .container-main {
@@ -112,8 +129,46 @@ h6 {
     border-radius: 50%;
 }
 
-.social-media-list a:hover {    
+.social-media-fb:hover {    
+    transition: color 0.5s;
+    transition-timing-function: ease-in;
     color: #3b5998;    
+}
+
+.social-media-ig:hover {    
+    transition: color 0.5s;
+    transition-timing-function: ease-in;
+    color: #dd2a7b;    
+}
+
+.social-media-tw:hover {    
+    transition: color 0.5s;
+    transition-timing-function: ease-in;
+    color: #00acee;    
+}
+
+.social-media-yt:hover {    
+    transition: color 0.5s;
+    transition-timing-function: ease-in;
+    color: #ff0000;    
+}
+
+.social-media-sf:hover {    
+    transition: color 0.5s;
+    transition-timing-function: ease-in;
+    color: #1DB954;    
+}
+
+.social-media-it:hover {    
+    transition: color 0.5s;
+    transition-timing-function: ease-in;
+    color: #EA4CC0;    
+}
+
+.social-media-bc:hover {    
+    transition: color 0.5s;
+    transition-timing-function: ease-in;
+    color: #629aa9;    
 }
 
 /*----------------------------------- Media Query ---------------*/
