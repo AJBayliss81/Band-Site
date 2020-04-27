@@ -86,7 +86,7 @@ h6 {
 }
 
 .sidebar-flames {
-    background: url(../images/Flames.jpg) no-repeat;
+    background: url("../images/Flames.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -136,12 +136,86 @@ h6 {
 .container-main {
     padding: 0;
     margin: 0;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
 }
 
 main p {
     color: rgb(207, 219, 213);
     padding: 30px 60px;
     margin: 0 60px;
+}
+
+.band-hero-image-container {
+    height: 350px;
+    width: 350px;
+    border: 1px solid rgba(207, 219, 213, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.band-hero-image {
+    background: url("../images/Band-main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: band-hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes band-hero-image-zoom {
+    from {
+      transform: scale(1)
+    }
+    to {
+      transform: scale(1.3)
+    }
+}
+
+.enter-text-container {
+    display: block;
+    position: absolute;
+    margin: auto;
+    height: 5vh;
+    width: 100vw;
+    bottom: 20vh;
+    text-align: center;
+    left: 0;
+}
+
+.enter-text {
+    position: absolute;
+    display: block;
+    padding: 0;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.enter-text a {
+    color: rgba(209,206,15, 0.6);
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 /*----------------------------------- Footer ---------------*/
