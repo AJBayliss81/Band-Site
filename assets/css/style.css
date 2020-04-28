@@ -24,6 +24,7 @@
     background-image: -o-linear-gradient(to right, #333533 15%, #d1ce0f, #db7a12, #cc2616 65%);
 }
 
+
 /*----------------------------------- Text/Margins/Padding ---------------*/
 
 body {
@@ -79,10 +80,9 @@ h6 {
 /*----------------------------------- Sidebar ---------------*/
 
 .sidebar {
-    height: 100vh;
+    height: 100%;
     padding: 0;
     margin: 0;
-    position: sticky;
 }
 
 .sidebar-flames {
@@ -91,7 +91,7 @@ h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    height: 100vh;
 }
 
 .sidebar-overlay {    
@@ -136,15 +136,16 @@ h6 {
 .container-main {
     padding: 0;
     margin: 0;
-    height: 80vh;
-    position: relative;
-    overflow: hidden;
 }
 
 main p {
     color: rgb(207, 219, 213);
     padding: 30px 60px;
     margin: 0 60px;
+}
+
+.landing-page-container {
+    height: 80vh;
 }
 
 .band-hero-image-container {
@@ -216,6 +217,56 @@ main p {
     font-size: 50px;
     font-weight: 900;
     background: rgba(0, 0, 0, 0.2);
+}
+
+/*----------------------------------- Text Alignment ---------------*/
+
+.align-right {
+    float: right;
+    text-align: right;
+    display: block;
+    width: 100%;
+}
+
+.align-left {
+    float: left;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+.align-left p {
+    padding: 30px 15px;
+    margin: 0 15px;
+}
+
+.align-right p {
+    padding: 30px 15px;
+    margin: 0 15px;
+}
+
+/*----------------------------------- Headings ---------------*/
+
+.headings {
+    color: #cc2616;
+    display: block;
+    padding: 30px;
+}
+
+.page-heading {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/*----------------------------------- Divider ---------------*/
+
+.content-divider {
+    width: 35%;
+    height: 3px;
+    background-color: rgba(209,206,15, 0.6);
+    border-radius: 2px;
+    margin: 30px;
 }
 
 /*----------------------------------- Footer ---------------*/
