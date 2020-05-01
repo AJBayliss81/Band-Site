@@ -219,6 +219,21 @@ main p {
     background: rgba(0, 0, 0, 0.2);
 }
 
+.about-image {
+    height: 300px;
+    width: 400px;
+}
+
+.align-left .about-image {
+    float: right;
+    margin: 30px 30px 30px 0;
+}
+
+.align-right .about-image {
+    float: left;
+    margin: 30px 30px 30px 0;
+}
+
 /*----------------------------------- Text Alignment ---------------*/
 
 .align-right {
@@ -249,13 +264,15 @@ main p {
 
 .headings {
     color: #cc2616;
-    display: block;
+    display: inline-block;
     padding: 30px;
+    
 }
 
 .page-heading {
     font-size: 50px;
     font-weight: 900;
+    width: 100%;
     text-align: center;
 }
 
@@ -350,5 +367,9 @@ main p {
     main p {
         padding: 15px 30px;
         margin: 0 30px;
+    }
+
+    .about-image {
+        display: none;
     }
 }
