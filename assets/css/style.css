@@ -238,16 +238,17 @@ main p {
 
 .ia-container {
 	width: 735px;
+    height: 500px;
 	margin: 20px auto;
 	overflow: hidden;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.08);
-	border: 7px solid rgba(255,255,255,0.6);
+	border: 7px solid #cc2616;
 }
 
 .ia-container figure {
     position: absolute;
 	top: 0;
-	left: 50px; /* width of visible piece */
+	left: 50px;
 	width: 335px;
     box-shadow: 0 0 0 1px rgba(255,255,255,0.6);
     transition: all 0.3s ease-in-out;
@@ -260,14 +261,16 @@ main p {
 
 .ia-container img {
 	display: block;
-	width: 100%;
+    width: 335px;
+    height: 500px;
+    object-fit: cover;
 }
 
 .ia-container input {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 50px; /* just cover visible part */
+	width: 50px;
 	height: 100%;
 	cursor: pointer;
 	border: 0;
