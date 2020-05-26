@@ -86,7 +86,7 @@ h6 {
 }
 
 .sidebar-flames {
-    background: url("../images/Flames.jpg") no-repeat;
+    background: url("../images/flames.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -163,7 +163,7 @@ main p {
 }
 
 .band-hero-image {
-    background: url("../images/Band-main.jpg");
+    background: url("../images/band-main.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,7 +242,7 @@ main p {
 	margin: 20px auto;
 	overflow: hidden;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.08);
-	border: 7px solid #cc2616;
+	border: 5px solid #cc2616;
 }
 
 .accordion-container figure {
@@ -349,6 +349,12 @@ main p {
 .align-right .audio {
     width: 40%;
     margin: 30px;
+}
+
+/*----------------------------------- Iframe ---------------*/
+
+iframe {
+    border: 5px solid #cc2616;
 }
 
 /*----------------------------------- Text Alignment ---------------*/
