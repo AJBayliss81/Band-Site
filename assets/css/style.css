@@ -421,6 +421,28 @@ iframe {
 /*----------------------------------- Tour Timeline ---------------*/
 
 .tour-container {
+    background: url("../images/venue.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.tour-overlay {
+    background: rgba(0, 0, 0, 0.9);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.tour-country {
     padding: 20px;
 }
 
