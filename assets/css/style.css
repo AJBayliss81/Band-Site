@@ -116,7 +116,7 @@ h6 {
 .sidebar-list li {    
     list-style-type: none;
     padding-top: 15px;
-    font-size: 1.5vw;
+    font-size: 20px;
     display: flex;  
     justify-content: center;
 }
@@ -389,7 +389,7 @@ iframe {
 .headings {
     color: #cc2616;
     display: inline-block;
-    padding: 30px;
+    padding: 30px 15px;
     
 }
 
@@ -398,7 +398,14 @@ iframe {
     font-weight: 900;
     width: 100%;
     text-align: center;
+    padding-top: 50px;
 }
+
+.headings i {
+    padding-left: 15px;
+    font-size: 35px;
+}
+
 
 /*----------------------------------- Divider ---------------*/
 
@@ -431,7 +438,7 @@ iframe {
 }
 
 .tour-timeline-item p {
-    padding: 0 0 20px;
+    padding: 0 10px 20px;
     margin: 0;
 }
 
@@ -460,15 +467,33 @@ iframe {
     width: 10px;
     height: 10px;
     top: 10px;
-    /* bottom: 10px; */
     left: -5px;
     background-color: white;
 }
 
 .venue {
     color: rgb(212, 143, 12);
-    padding: 0;
-    margin: 0;
+    padding: 30px 10px;
+}
+
+.city {
+    padding-left: 10px;
+}
+
+.city i {
+    padding-left: 0;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.venue i {
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+a i {
+    padding: 0 10px;
+    font-size: 18px;
 }
 
 /*----------------------------------- Footer ---------------*/
