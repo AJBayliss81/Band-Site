@@ -220,6 +220,13 @@ main p {
     background: rgba(0, 0, 0, 0.1);
 }
 
+/*----------------------------------- Biography ---------------*/
+
+.bio {
+    text-align: justify;
+    overflow: hidden;
+}
+
 .about-image {
     height: 300px;
     width: 400px;
@@ -227,12 +234,12 @@ main p {
 
 .align-left .about-image {
     float: right;
-    margin: 30px 30px 30px 0;
+    margin: 60px 30px 30px;
 }
 
 .align-right .about-image {
     float: left;
-    margin: 30px 30px 30px 0;
+    margin: 60px 30px 30px;
 }
 
 /*----------------------------------- Accordion ---------------*/
@@ -356,6 +363,8 @@ main p {
 
 iframe {
     border: 5px solid #cc2616;
+    float: left;
+    margin: 30px;
 }
 
 /*----------------------------------- Text Alignment ---------------*/
@@ -390,7 +399,7 @@ iframe {
     color: #cc2616;
     display: inline-block;
     padding: 30px 15px;
-    
+    clear: both;
 }
 
 .page-heading {
