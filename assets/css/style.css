@@ -121,7 +121,7 @@ h6 {
 .sidebar-list li {    
     list-style-type: none;
     padding-top: 15px;
-    font-size: 1.6vw;
+    font-size: 20px;
     display: flex;  
     justify-content: center;
 }
@@ -615,10 +615,6 @@ a i {
         margin: 0 30px;
     }
 
-    .about-image {
-        display: none;
-    }
-
 }
 
 
@@ -643,6 +639,11 @@ a i {
 	.accordion-container figcaption span { 
 		font-size: 16px; 
 	}
+
+    .about-image {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 620px) {
