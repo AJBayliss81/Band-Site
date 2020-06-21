@@ -1,8 +1,6 @@
-# Your Project's Name
+# B 4 Flames - A Fictional band website.
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+This project will focus on a fictional rock band and their desire to create a website that will further their career by bringing together fans of the band through various interactions and sharing of information.
  
 ## UX
  
