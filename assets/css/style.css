@@ -258,7 +258,7 @@ main p {
 	border: 5px solid #cc2616;
 }
 
-.accordion-container figure {
+.accordion-container div {
     position: absolute;
 	top: 0;
 	left: 50px;
@@ -267,7 +267,7 @@ main p {
     transition: all 0.3s ease-in-out;
 }
 
-.accordion-container > figure {
+.accordion-container > div {
     position: relative;
 	left: 0;
 }
@@ -300,7 +300,7 @@ main p {
 	left: auto;
 	right: 0px;
 }
-.accordion-container input:checked ~ figure {
+.accordion-container input:checked ~ div {
     left: 335px;
     transition: all 0.7s ease-in-out;
 }
@@ -353,7 +353,7 @@ main p {
 	background: rgba(87, 73, 81, 0.03);
 }
 
-.accordion-container input:checked ~ figure input{
+.accordion-container input:checked ~ div input{
     z-index: 1;
 }
 
@@ -623,7 +623,7 @@ a i {
 		width: 540px; 
 	}
 	
-	.accordion-container figure { 
+	.accordion-container div { 
 		left: 40px; 
 		width: 260px; 
 	}
@@ -632,7 +632,7 @@ a i {
 		width: 40px; 
 	}
 	
-	.accordion-container input:checked ~ figure { 
+	.accordion-container input:checked ~ div { 
 		left: 260px; 
 	}
 	
@@ -651,7 +651,7 @@ a i {
 		width: 320px; 
 	}
 	
-	.accordion-container figure { 
+	.accordion-container div { 
 		left: 20px; 
 		width: 180px; 
 	}
@@ -660,7 +660,7 @@ a i {
 		width: 20px; 
 	}
 	
-	.accordion-container input:checked ~ figure { 
+	.accordion-container input:checked ~ div { 
 		left: 180px; 
 	}
 	
