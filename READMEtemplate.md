@@ -60,24 +60,44 @@ Below can be found the simple wireframe structure for the individual pages for b
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+1. Index page - a landing page to grab the attention and entice the user into delving deeper into the site.
+2. About page - a biography page to learn more about the members.
+3. Media page - a page containing the various media for users to make use of.
+4. Tour page - a page listing the forthcoming tour dates for the band.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- Responsive navbar, allows users to have similar experience on all devices and have familiarity when navigating through the site.
+- Responsive sidebar, scaling with screen sizes between tablet and desktop. Not enabled for mobile viewing as it would be too squashed and take up too much screen realestate.
+- Jump links on sidebar to allow users to quickly navigate to different content within each individual page.
+- Social media footer, allowing users on all devices quick access to social media platforms.
+- On hover colour changes for all links on the site to allow users some interactivity with links. Social media links also change to the colours associated with the various 
+platforms.
+- Image accordion to easily access several images within a smaller space. Allows all images to be contained to limit taking up too much screen space and limit having to scroll 
+through the page.
+- Audio button to listen to the "latest track" on the website itself, mostly for new fans/users of the site to tempt them into listening to more media via the social media 
+platforms.
+- Embedded video, enabling users to view the latest video uploaded on the website, also available in fullscreen. Again, more for newer users of the site to tempt them to engaging 
+more with the band social media platforms.
+- Tour dates with venue specific details and links, allowing users to view the addresses and to click to view the venue's site and purchase tickets.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
-- Another feature idea
+### Future revisions
+
+- Mailing list, to allow users to sign up via a form to join a mailing list to be informed of upcoming tours, media and mechandise.
+- Merchandise page to allow fans to purchase band merchandise from the website directly.
+- Message board/chat page, to allow fans to communicate directly with one another, possibly to set up band Q & A sessions etc.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+During the design of the site the following technologies were used to achieve this:
 
-- [JQuery](https://jquery.com)
+- HTML5 - provided the content and structure, care was taken to strive to use semantic elements where possible to adhere to best practices of web design.
+- CSS3 - provided the customisation and styling to the pages.
+- [Bootstrap](https://getbootstrap.com/) - allowed me to use a framework to achieve both styling and functionality. The Bootstrap classes were used to create a sidebar and make it sticky 
+when scrolling as well as creating a responsive navbar.
+- [JQuery/Javascript](https://jquery.com) - Bootstrap required an imported version of JQuery to enable the functionality of the responsive navbar, without which it was unable to function.
+
     - The project uses **JQuery** to simplify DOM manipulation.
 
 
