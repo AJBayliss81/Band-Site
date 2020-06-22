@@ -42,7 +42,21 @@ music, and inserted a youtube video of a rock band.
 
 Below can be found the simple wireframe structure for the individual pages for both desktop and mobile views:
 
+![Image of index.html](assets/readme-images/index.png)
 
+![Image of index-mobile.html](assets/readme-images/index-mobile.png)
+
+![Image of about.html](assets/readme-images/about.png)
+
+![Image of about-mobile.html](assets/readme-images/about-mobile.png)
+
+![Image of media.html](assets/readme-images/media.png)
+
+![Image of media-mobile.html](assets/readme-images/media-mobile.png)
+
+![Image of tour.html](assets/readme-images/tour.png)
+
+![Image of tour-mobile.html](assets/readme-images/tour-mobile.png)
 
 ## Features
 
